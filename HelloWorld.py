@@ -2,7 +2,7 @@ import sys
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 
-
+print('Hello')
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
